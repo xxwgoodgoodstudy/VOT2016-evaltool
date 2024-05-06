@@ -1,9 +1,9 @@
 # VOT2016-evaltool
-根据跟踪算法的test结果，生成评估结果图，测试集为VOT2016格式
-
-acc_speed.py根据eval.py和test.py的eao和speed数值，生成eao-speed气泡图，这里脚本名字有歧义
+根据跟踪算法的test和eval结果，生成评估结果图，测试集为VOT2016格式
 
 heatmap.py生成heatmap热度图，需要在test.py里修改调用
+
+acc_speed.py根据eval.py和test.py的eao和speed数值，生成eao-speed气泡图，这里脚本名字有歧义
 
 trackerbenchmark.py根据test生成的txt结果文件，生成跟踪框对比图
 
